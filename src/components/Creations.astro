@@ -1,0 +1,32 @@
+---
+import CreationCard from "./CreationCard.astro";
+
+const creations = [
+  { title: "Deep Earth", img: "images/desktop/image-deep-earth.jpg" },
+  { title: "Night Arcade", img: "images/desktop/image-night-arcade.jpg" },
+  { title: "Soccer Team VR", img: "images/desktop/image-soccer-team.jpg" },
+  { title: "The Grid", img: "images/desktop//image-grid.jpg" },
+  { title: "From Up Above VR", img: "images/desktop//image-from-above.jpg" },
+  { title: "Pocket Borealis", img: "images/desktop//image-pocket-borealis.jpg" },
+  { title: "The Curiosity", img: "images/desktop//image-curiosity.jpg" },
+  { title: "Make It Fisheye", img: "images/desktop//image-fisheye.jpg" },
+];
+---
+<section class="container mx-auto px-6 py-24">
+  <div class="flex justify-center md:justify-between items-center mb-12">
+    <h2 class="text-4xl md:text-5xl">Our Creations</h2>
+    <button class="hidden md:block border-2 border-black px-10 py-2 tracking-[0.3em] font-bold hover:bg-black hover:text-white transition cursor-pointer">
+      SEE ALL
+    </button>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+    {creations.map((item) => (
+      <CreationCard title={item.title} image={item.img} />
+    ))}
+  </div>
+
+  <div class="flex justify-center mt-12 md:hidden">
+    <button class="border-2 border-black px-12 py-3 tracking-[0.4em] font-bold">SEE ALL</button>
+  </div>
+</section>
