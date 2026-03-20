@@ -80,3 +80,7 @@ Sistema de colores y fuentes (style-guide.md).
 Imágenes optimizadas y assets necesarios para la landing page.
 
 Archivo de inicio con estructura básica del proyecto y README-template.md.
+- ¿Qué fue lo más fácil o lo más difícil de realizar?   Me quede un poco atras por que habia unas cosas que no me funiconaban al momento de correr el programa no me reconocia los estilos, pero investigando vi que era por un comando y quedo solucionado
+- ¿Qué parte disfrutaste más del desarrollo?  que esta seccionado y no es tan dificil perder que linea de codigo es la que falla
+- ¿Qué conceptos nuevos aprendiste?  aprendi todo lo nuevo sobre astro, la verdad nunca lo habia usado y se me hace mucho mas facil que este seccionado por partes para tener todo mucho mas ordenado
+- ¿Cómo aplicarías lo aprendido en proyectos futuros? pues tener seccionado nuestra pagina por partes para asi no tener todo amontonado en un index
