@@ -78,6 +78,7 @@ Archivos de diseño (versión móvil y escritorio).
 Sistema de colores y fuentes (style-guide.md).
 
 Imágenes optimizadas y assets necesarios para la landing page.
+github page: https://damiandiaz0530.github.io/Landing-page/
 
 Archivo de inicio con estructura básica del proyecto y README-template.md.
 - ¿Qué fue lo más fácil o lo más difícil de realizar?   Me quede un poco atras por que habia unas cosas que no me funiconaban al momento de correr el programa no me reconocia los estilos, pero investigando vi que era por un comando y quedo solucionado
